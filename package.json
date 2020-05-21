@@ -19,7 +19,8 @@
     "react-scripts": "3.1.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -72,7 +73,6 @@
     "prettier": "~1.15.3",
     "pretty-quick": "~1.8.0",
     "react-test-renderer": "^16.9.0",
-    "redux-devtools-extension": "^2.13.8",
     "stylelint": "~9.9.0",
     "stylelint-config-standard": "~18.2.0"
   }
