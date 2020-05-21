@@ -1,0 +1,123 @@
+/*Cart Item*/
+.cart-item {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.cart-item > .div {
+  padding: 20px;
+}
+
+.cart-item > .item-detail-container {
+  display: flex;
+}
+
+.cart-item > .item-detail-container .details {
+  padding-top: 10px;
+}
+.cart-item > .item-detail-container > img {
+  height: 150px;
+  width: 150px;
+  margin: 0px 20px 0px 0px;
+}
+
+.cart-item .item-actions {
+  display: flex;
+  padding-top: 50px;
+}
+
+.cart-item button,
+.cart-item button:hover,
+.cart-item button:focus {
+  display: block;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 0px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.cart-item .item-actions > button {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  margin: 0 5px;
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+  font-weight: 500;
+  height: 35px;
+  width: 35px;
+}
+.cart-item .item-actions > button > span {
+  top: -1px;
+  position: relative;
+}
+
+.cart-item .item-actions > input {
+  width: 35px;
+  position: relative;
+  top: 1px;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.cart-item .item-actions .ant-input[disabled]:hover {
+  border-color: rgb(0, 0, 0);
+  border-right-width: 1px !important;
+  color: rgb(0, 0, 0);
+}
+
+.cart-item .item-detail-container .price-details {
+  padding: 0;
+  display: flex;
+  border: 0;
+  margin: 20px 0px;
+}
+
+.cart-item .item-detail-container .price-details > span {
+  margin: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cart-item .item-detail-container .price-details > span.discount {
+  color: rgb(11, 210, 11);
+}
+.cart-item .item-detail-container .price-details > span.selling-price {
+  color: rgb(169, 167, 167);
+  text-decoration: line-through;
+}
+
+.cart-item .product-name {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0px;
+  display: block;
+}
+.mobile-view {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .cart-page .mobile-view {
+    display: block;
+    padding: 20px;
+  }
+  .cart-page .mobile-view .price-details {
+    border: 1px solid;
+    margin: 25px 0px 25px 0px;
+  }
+  .cart-item {
+    padding: 5px;
+    display: inherit;
+  }
+  .cart-item > .item-detail-container > img {
+    height: 100px;
+    width: 100px;
+    margin: 0px 10px 0px 0px;
+  }
+  .cart-item .item-actions {
+    padding-top: 20px;
+    float: right;
+    margin-right: 20%;
+  }
+}

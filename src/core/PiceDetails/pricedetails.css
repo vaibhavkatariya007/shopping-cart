@@ -1,0 +1,30 @@
+.price-details {
+  border: 1px solid;
+  margin: 50px 25px 20px 0px;
+}
+
+.price-details .header {
+  background-color: rgb(228, 228, 228);
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.total-payable-container {
+  font-size: 17px;
+  font-weight: 500;
+  border-top: 1px solid;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-container,
+.discount-container {
+  padding: 10px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}

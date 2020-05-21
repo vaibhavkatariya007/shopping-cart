@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-layout-header {
+  height: 55px;
+  padding: 12px 40px;
+  background: #2874f0;
+  display: flex;
+  color: #fff;
+  line-height: initial;
+}
+.ant-layout-header i {
+  font-size: 23px;
+  cursor: pointer;
+}
+.ant-layout-header > i,
+.ant-layout-header > .ant-badge {
+  position: relative;
+  top: 5px;
+}
+.ant-layout-content {
+  padding: 30px;
+}
+
+.ant-layout-sider {
+  background: rgb(240, 242, 245);
+  border-right: 1px solid rgb(221, 221, 221);
+}
+.ant-layout-footer {
+  text-align: center;
+  color: #fff;
+  background: #2874f0;
+  padding: 18px 50px;
+}
+.ant-table-tbody > tr {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.heading {
+  color: #ffffff;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+.loading {
+  text-align: center;
+}
+.ant-spin-spinning {
+  padding-right: 20px;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  display: block;
+}
+
+.no-product-found {
+  background-color: #ddd;
+  font-size: 17px;
+  text-align: center;
+  padding: 20px;
+}
+.no-product-found .label {
+  display: block;
+  margin: 20px;
+}
+.no-product-found button,
+.no-product-found button:hover,
+.no-product-found button:focus {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(40, 116, 240);
+  color: rgb(255, 255, 255);
+}
+header .logo {
+  width: 150px;
+  font-size: 20px;
+  color: rgb(245, 189, 7);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo > span {
+  margin-left: 5px;
+  line-height: 22px;
+}
+/*SEARCH CSS */
+.ant-input-affix-wrapper .ant-input {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 25px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  float: none;
+}
+.ant-input-affix-wrapper .ant-input:focus:hover,
+.ant-input-affix-wrapper .ant-input:hover {
+  outline: none;
+  box-shadow: none;
+}
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+  border-color: #fff;
+}
+.ant-input-affix-wrapper .ant-input:focus {
+  width: 80%;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  box-shadow: none;
+}
+.ant-input-search-icon,
+.ant-input-search-icon:hover {
+  color: #fff;
+}
+.mobile-view {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .product-listing .mobile-view {
+    display: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .product-listing .ant-layout-content {
+    padding: 15px;
+  }
+  .cart-page .ant-layout-content {
+    padding: 0;
+  }
+  .ant-layout-header {
+    padding: 12px 12px;
+  }
+  .ant-input-affix-wrapper .ant-input:focus {
+    width: 100%;
+  }
+}

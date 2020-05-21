@@ -1,0 +1,42 @@
+.filtering .filter,
+.filtering {
+  padding: 30px 20px;
+}
+.filtering .label {
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.filter .max-min-value {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.filter-type {
+  text-align: center;
+}
+
+.filtering button,
+.filtering button:hover,
+.filtering button:focus {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(40, 116, 240);
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.filtering button.reset,
+.filtering button.reset:hover,
+.filtering button.reset:focus {
+  background-color: rgb(235, 141, 20);
+}
+
+@media only screen and (max-width: 600px) {
+  .ant-layout-sider {
+    display: none;
+  }
+}

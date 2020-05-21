@@ -1,0 +1,31 @@
+.sorting {
+  margin: 0px 0px 15px;
+}
+.sorting > span {
+  margin: 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sorting > span.active {
+  color: rgb(40, 116, 240);
+  font-weight: 500;
+  border-bottom: 2px solid rgb(40, 116, 240);
+  padding-bottom: 2px;
+}
+
+.sorting > span.label {
+  font-weight: bold;
+  cursor: initial;
+}
+
+@media only screen and (max-width: 600px) {
+  .sorting {
+    display: none;
+  }
+  .ant-radio-group > .ant-radio-wrapper {
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+  }
+}
