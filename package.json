@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vaibhavkatariya007.github.io/shopping-cart",
   "name": "ShoppingCart",
   "version": "0.1.0",
   "private": false,
@@ -6,7 +7,6 @@
     "node": "10.14.2",
     "npm": "6.4.1"
   },
-  "homepage": "./",
   "dependencies": {
     "antd": "^3.23.2",
     "axios": "^0.19.0",
@@ -24,6 +24,8 @@
     "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

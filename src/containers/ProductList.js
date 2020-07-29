@@ -49,12 +49,14 @@ const ProductList = ({
 
   let ProductData = [];
 
+  const filterOnData = SearchedData || products;
+
   if (sortBy == 'highToLow') {
     ProductData =
-      products &&
-      products.length > 0 &&
+      filterOnData &&
+      filterOnData.length > 0 &&
       _.orderBy(
-        products,
+        filterOnData,
         function(e) {
           return e.price.actual;
         },
@@ -62,10 +64,10 @@ const ProductList = ({
       );
   } else if (sortBy == 'lowToHigh') {
     ProductData =
-      products &&
-      products.length > 0 &&
+      filterOnData &&
+      filterOnData.length > 0 &&
       _.orderBy(
-        products,
+        filterOnData,
         function(e) {
           return e.price.actual;
         },
@@ -73,10 +75,10 @@ const ProductList = ({
       );
   } else if (sortBy == 'discount') {
     ProductData =
-      products &&
-      products.length > 0 &&
+      filterOnData &&
+      filterOnData.length > 0 &&
       _.orderBy(
-        products,
+        filterOnData,
         function(e) {
           return e.discount;
         },
@@ -106,7 +108,7 @@ const ProductList = ({
     setSearchedData(SearchedData);
   };
 
-  const data = SearchedData || ProductData;
+  const data = ProductData;
   return (
     <Layout className="product-listing">
       <HeaderContainer
