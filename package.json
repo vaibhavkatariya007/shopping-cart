@@ -1,15 +1,10 @@
 {
   "homepage": "https://vaibhavkatariya007.github.io/shopping-cart",
-  "name": "ShoppingCart",
+  "name": "starshopping",
   "version": "0.1.0",
   "private": false,
-  "engines": {
-    "node": "10.14.2",
-    "npm": "6.4.1"
-  },
   "dependencies": {
     "antd": "^3.23.2",
-    "axios": "^0.19.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "react": "^16.9.0",
