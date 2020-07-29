@@ -2,7 +2,7 @@ This application is bootstrapped with [Create React App].
 
 ## Visit following link
 
-https://star-shopping-cart.herokuapp.com/
+https://vaibhavkatariya007.github.io/shopping-cart/
 
 ## Available Scripts
 
