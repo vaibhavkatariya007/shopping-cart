@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.309c337c.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.7e19dc43.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.7e19dc43.chunk.js.map",
-    "runtime~main.js": "/shopping-cart/static/js/runtime~main.481630c2.js",
-    "runtime~main.js.map": "/shopping-cart/static/js/runtime~main.481630c2.js.map",
+    "main.js": "/shopping-cart/static/js/main.b30c1641.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.b30c1641.chunk.js.map",
+    "runtime~main.js": "/shopping-cart/static/js/runtime~main.a388d22e.js",
+    "runtime~main.js.map": "/shopping-cart/static/js/runtime~main.a388d22e.js.map",
     "static/css/2.8c467cd4.chunk.css": "/shopping-cart/static/css/2.8c467cd4.chunk.css",
     "static/js/2.03efff97.chunk.js": "/shopping-cart/static/js/2.03efff97.chunk.js",
     "static/js/2.03efff97.chunk.js.map": "/shopping-cart/static/js/2.03efff97.chunk.js.map",
@@ -12,10 +12,10 @@
     "static/js/3.575b0b1b.chunk.js.map": "/shopping-cart/static/js/3.575b0b1b.chunk.js.map",
     "static/js/4.50ea637f.chunk.js": "/shopping-cart/static/js/4.50ea637f.chunk.js",
     "static/js/4.50ea637f.chunk.js.map": "/shopping-cart/static/js/4.50ea637f.chunk.js.map",
-    "static/js/5.83fc1ea5.chunk.js": "/shopping-cart/static/js/5.83fc1ea5.chunk.js",
-    "static/js/5.83fc1ea5.chunk.js.map": "/shopping-cart/static/js/5.83fc1ea5.chunk.js.map",
+    "static/js/5.13b7fea3.chunk.js": "/shopping-cart/static/js/5.13b7fea3.chunk.js",
+    "static/js/5.13b7fea3.chunk.js.map": "/shopping-cart/static/js/5.13b7fea3.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "precache-manifest.568baf65934040dadc472bbb2cbba402.js": "/shopping-cart/precache-manifest.568baf65934040dadc472bbb2cbba402.js",
+    "precache-manifest.de32d4bdb069b51afa520196942f1aea.js": "/shopping-cart/precache-manifest.de32d4bdb069b51afa520196942f1aea.js",
     "service-worker.js": "/shopping-cart/service-worker.js",
     "static/css/2.8c467cd4.chunk.css.map": "/shopping-cart/static/css/2.8c467cd4.chunk.css.map",
     "static/css/main.309c337c.chunk.css.map": "/shopping-cart/static/css/main.309c337c.chunk.css.map"
