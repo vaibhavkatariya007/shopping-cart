@@ -13,7 +13,7 @@ import {ProductList, Cart} from './containers';
 
 const Root = ({store}) => (
   <Provider store={store}>
-    <Router>
+    <Router basename='/shopping-cart'>
       <Suspense fallback={<Loading />}>
         <Switch>
           <Route exact path="/" component={ProductList} />
